@@ -197,7 +197,7 @@ public class HttpServer {
                 "                    document.getElementById(\"getrespmsg\").innerHTML =\n" +
                 "                    this.responseText;\n" +
                 "                }\n" +
-                "                xhttp.open(\"GET\", \"/hello?name=\"+nameVar);\n" +
+                "                xhttp.open(\"GET\", \"/consulta?comando=\"+nameVar);\n" +
                 "                xhttp.send();\n" +
                 "            }\n" +
                 "        </script>\n" +
